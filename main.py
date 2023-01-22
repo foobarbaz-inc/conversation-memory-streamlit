@@ -81,5 +81,6 @@ st.button("Refresh chat", on_click=refresh_chain)
 
 if chain.memory.store:
     for entity, summary in chain.memory.store.items():
-        st.sidebar.write(f"Entity: {entity}, Summary: {summary}")
-    #selected_entity = st.sidebar.selectbox("Select an entity", entities)
+        #st.sidebar.write(f"{entity}: {summary}")
+        st.sidebar.write(f"Entity: {entity}")
+        st.sidebar.write(f"{summary}")
