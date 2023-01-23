@@ -6,6 +6,10 @@ Talk to the bot & see the entities mentioned in conversation appear on the left-
 
 Click Refresh Chat (make sure the text input is clear first) to clear the conversation context and see that the bot still "remembers" what you told it.
 
+## Run locally
+
+Run `streamlit run main.py` in your terminal (make sure your OpenAI API key is set as an environment variable OPENAI_API_KEY first).
+
 ## Deploy on Streamlit
 
 This is easily deployable on the Streamlit platform.
