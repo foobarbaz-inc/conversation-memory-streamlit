@@ -1,12 +1,10 @@
-# LangChain-Streamlit Template
+# Long-Term Memory for Conversational Agents Demo
 
-This repo serves as a template for how to deploy a LangChain on Streamlit.
+This serves as an example of the ConversationEntityMemory module in Langchain.
 
-This repo contains an `main.py` file which has a template for a chatbot implementation.
+Talk to the bot & see the entities mentioned in conversation appear on the left-hand side as the bot understands them.
 
-## Adding your chain
-To add your chain, you need to change the `load_chain` function in `main.py`.
-Depending on the type of your chain, you may also need to change the inputs/outputs that occur later on.
+Click Refresh Chat (make sure the text input is clear first) to clear the conversation context and see that the bot still "remembers" what you told it.
 
 ## Deploy on Streamlit
 
