@@ -1,4 +1,4 @@
-git+https://github.com/hwchase17/langchain@entity-memory#egg=langchain
+langchain
 openai
 streamlit
 streamlit-chat
